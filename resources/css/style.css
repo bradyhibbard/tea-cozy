@@ -7,7 +7,7 @@ body {
   opaticty: 0.9;
   text-align: center;
   color: seashell;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -64,8 +64,8 @@ a:visited {
   background-image: url("../images/img-mission-background.jpg");
   margin-left: 25px;
   margin-right: 25px;
-  position: relative;
   z-index: 1;
+  position: relative;
   top: 70px;
 }
 
@@ -76,4 +76,84 @@ a:visited {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: black;
+}
+
+/*tea of the month*/
+
+.tea-month {
+  z-index: 15;
+  position: relative;
+  top: 70px;
+  z-index: 1;
+
+}
+
+/*location section*/
+
+.location {
+  position: relative;
+  top: 70px;
+  height: 600px;
+  background-image: url("../images/img-locations-background.jpg");
+  z-index: 1;
+  margin: 0 20px;
+
+}
+
+.stores {
+  display: flex;
+  opacity: 1;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  align-items: center;
+
+}
+
+.downtown {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding right: 40px;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+
+}
+
+.downtown span {
+  line-height: 3;
+}
+
+.east-bay {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding right: 40px;
+  width: 300px;
+  height: 300px;
+}
+
+.east-bay span {
+  line-height: 3;
+}
+
+.oakdale {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding right: 40px;
+  width: 300px;
+  height: 300px;
+}
+
+.oakdale span {
+  line-height: 3;
+}
+
+
+.location-child {
+  padding-top: 50px;
+
 }
